@@ -18,13 +18,13 @@ const AboutMe = (props) => {
       <h1>About me here</h1>
       <Card>
         <CardContent>
-          <Typography variant="h5" component="h2">
-            👩‍💻 About me
-          </Typography>
+          {/* <Typography variant="h5" component="h2">
+             About me
+          </Typography> */}
           <br />
           <Typography variant="body2" component="p">
             In the middle of 2019, I’ve challenged myself to become a Web
-            Developer and started to learn programming by myself.
+            Developer and started to learn programming by myself 👩‍💻.
             <br />
             After a few months, of self-studying, I won a scholarship at Wild
             Code School and immediately enrolled for a 5-month Fullstack WebDev

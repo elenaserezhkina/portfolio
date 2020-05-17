@@ -10,6 +10,7 @@ const ScrollContainer = styled.div`
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  // align-items: flex-end;
 `;
 const FontAwesomeIcon = styled(_FontAwesomeIcon)`
   font-size: 65px;
@@ -28,7 +29,7 @@ const LandingPage = (props) => {
       <ScrollContainer>
         <FontAwesomeIcon
           icon={faAngleDoubleDown}
-          color={props.theme === "light" ? "yellow" : "darkblue"}
+          color={props.theme === "light" ? "#ffc34d" : "#5769AD"}
         />
       </ScrollContainer>
     </div>

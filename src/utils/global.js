@@ -6,7 +6,7 @@ export const GlobalStyles = createGlobalStyle`
   *::before {
     box-sizing: border-box;
   }
-  *::focus {
+  *:focus {
     outline: none;
   }
 
@@ -31,7 +31,6 @@ export const GlobalStyles = createGlobalStyle`
   text-align: center;
   font-weight: normal;
   font-size: 38px;
-  width: 50%;
   max-width: 500px;
   @media only screen and (max-width: 550px) {
     font-size: 30px;

@@ -1,0 +1,40 @@
+export const projects = [
+  {
+    title: "Laces Up",
+    subheader: "Hackathon project",
+    image: "/lacesUp.png",
+    imgTitle: "Paella dish",
+    specialization: "Fullstack",
+    technologies: ["Node.js", "Express", "Mongoose", "React"],
+  },
+  {
+    title: "Workademy",
+    subheader: "Client project",
+    image: "/lacesUp.png",
+    imgTitle: "Paella dish",
+    specialization: "Front-end",
+    technologies: [
+      "React",
+      "Redux",
+      "Styled Components",
+      "Material UI",
+      "different libraries",
+    ],
+  },
+  {
+    title: "BEhERe",
+    subheader: "Project at WCS",
+    image: "/lacesUp.png",
+    imgTitle: "Paella dish",
+    specialization: "Front-end",
+    technologies: ["React", "SCSS", "Material UI", "different libraries"],
+  },
+  {
+    title: "Heroship",
+    subheader: "Hackathon project",
+    image: "/lacesUp.png",
+    imgTitle: "Paella dish",
+    specialization: "Front-end",
+    technologies: ["React", "CSS", "Material UI", "different libraries"],
+  },
+];
