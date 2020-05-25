@@ -26,6 +26,7 @@ const Card = styled(_Card)`
   }
 `;
 const Typography = styled(_Typography)`
+  font-size: 20px;
   @media only screen and (max-width: 500px) {
     &.MuiTypography-body1 {
       font-size: 15px;

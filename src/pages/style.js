@@ -44,7 +44,7 @@ export const Card = styled(_Card)`
 export const SmallCard = styled(Card)`
   width: 150px;
   margin: 0 5px 5px 5px;
-  height: 200px;
+  height: 130px;
   > h2 {
     font-size: 20px;
   }

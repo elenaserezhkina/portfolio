@@ -3,7 +3,7 @@ export const projects = [
     title: "Laces Up",
     subheader: "Hackathon project",
     image: "/lacesUp.png",
-    imgTitle: "Paella dish",
+    imgTitle: "shoe with laces",
     specialization: "Fullstack",
     technologies: ["Node.js", "Express", "Mongoose", "React"],
     description: "Project made for online shop selling designer laces ",
@@ -17,7 +17,7 @@ export const projects = [
     title: "Workademy",
     subheader: "Client project",
     image: "/workademy.png",
-    imgTitle: "Paella dish",
+    imgTitle: "Workademy logo",
     specialization: "Front-end",
     technologies: [
       "React",
@@ -39,7 +39,7 @@ export const projects = [
     description:
       "React app that uses Punk API and allows users to find beers based on multiple criteria.",
     image: "/beerApp.png",
-    imgTitle: "Paella dish",
+    imgTitle: "Beer picture",
     specialization: "Front-end",
     technologies: ["React", "SCSS", "Material UI", "different libraries"],
     myInput:
@@ -48,10 +48,24 @@ export const projects = [
     github: "https://github.com/elenaserezhkina/Project1_BeerApp",
   },
   {
+    title: "WIKI-Audio",
+    subheader: "Hackathon project",
+    image: "",
+    imgTitle: "wiki audio project",
+    specialization: "Front-end",
+    technologies: ["React", "CSS", "Material UI", "different libraries"],
+    description:
+      "The app was made during the hackathon in a team of 3 people. Our project received the first prize from Twilio. Post about this event",
+    myInput:
+      "I was responsible for the front-end part: used Material UI for different components and integrated mapbox library into our project.",
+    link:
+      "https://www.linkedin.com/feed/update/urn:li:activity:6638009115245334528/",
+  },
+  {
     title: "Heroship",
     subheader: "Hackathon project",
     image: "/heroship.png",
-    imgTitle: "Paella dish",
+    imgTitle: "preview of Heroship website",
     specialization: "Front-end",
     technologies: ["React", "CSS", "Material UI", "different libraries"],
     description:

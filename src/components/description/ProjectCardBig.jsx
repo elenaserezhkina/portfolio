@@ -58,6 +58,13 @@ const ProjectCardBig = (props) => {
                 )
               ) : (
                 ""
+              )}{" "}
+              {project.link ? (
+                <Highlight>
+                  <a href={project.link}>here</a>
+                </Highlight>
+              ) : (
+                " "
               )}
             </Description>
             <Technologies>
