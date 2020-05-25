@@ -9,7 +9,7 @@ import LandingPage from "./pages/LandingPage";
 import Projects from "./pages/Projects";
 import "./App.css";
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [currentPage, setCurrentPage] = useState(null);
 
   // The function that toggles between themes
@@ -27,7 +27,7 @@ function App() {
   };
 
   return (
-    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+    <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
       <>
         <GlobalStyles />
         <ReactPageScroller
