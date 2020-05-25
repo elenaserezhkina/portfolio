@@ -6,8 +6,7 @@ import {
   Container,
   ProjectsPreview,
   ProjectsDescription,
-  Card,
-  CardHeader,
+  SmallCard,
   CardMedia,
 } from "./style";
 import { projects } from "../components/projects/allProjets";
@@ -34,10 +33,11 @@ const Projects = (props) => {
       <Container>
         <ProjectsPreview>
           {projects.map((project) => (
-            <Card onClick={() => setSelectedProject(project)}>
-              <CardHeader title={project.title} subheader={project.subheader} />
+            <SmallCard onClick={() => setSelectedProject(project)}>
+              <h2>{project.title}</h2>
+              <h3>{project.subheader}</h3>
               <CardMedia image={project.image} title={project.imgTitle} />
-            </Card>
+            </SmallCard>
           ))}
         </ProjectsPreview>
         <ProjectsDescription>

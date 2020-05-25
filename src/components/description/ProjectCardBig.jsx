@@ -1,24 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Typography from "@material-ui/core/Typography";
-import _Card from "@material-ui/core/Card";
 import _CardMedia from "@material-ui/core/CardMedia";
 import styled from "styled-components";
-import { Button } from "../../pages/style";
+import { Button, Card as _Card, Highlight } from "../../pages/style";
 
 const Card = styled(_Card)`
   padding: 15px;
-  &.MuiPaper-root {
-    color: ${({ theme }) => theme.text};
-    background-color: ${({ theme }) => theme.card};
-  }
 `;
 
-// color: ${({ theme }) => theme.text};
-const CardHeader = styled.h2``;
-const CardSubheader = styled.h3`
-  color: ${({ theme }) => theme.subHeader};
-`;
 const CardBody = styled.div`
   display: flex;
 `;
@@ -46,21 +36,14 @@ const ButtonsContainer = styled.div`
   display: flex;
   justify-content: space-between;
 `;
-const Highlight = styled.span`
-  color: ${({ theme }) => theme.highlight};
-  > a {
-    color: ${({ theme }) => theme.highlight};
-  }
-`;
 
 const ProjectCardBig = (props) => {
   const { project, handleChange, theme } = props;
-  const isLight = theme === "light";
   return (
     <div>
       <Card>
-        <CardHeader>{project.title}</CardHeader>
-        <CardSubheader>{project.subheader}</CardSubheader>
+        <h2>{project.title}</h2>
+        <h3>{project.subheader}</h3>
         <CardBody>
           <LeftSection>
             <Description>
