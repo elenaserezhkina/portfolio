@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import PropTypes from "prop-types";
 import { FontAwesomeIcon as _FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
 import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
@@ -53,7 +52,5 @@ const Links = (props) => {
     </BackgroundBlur>
   );
 };
-
-Links.propTypes = {};
 
 export default Links;

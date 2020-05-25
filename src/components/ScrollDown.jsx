@@ -16,9 +16,9 @@ const FontAwesomeIcon = styled(_FontAwesomeIcon)`
   }
 `;
 
-const ScrollDown = ({ theme }) => {
+const ScrollDown = ({ theme, nextPage }) => {
   return (
-    <ScrollContainer>
+    <ScrollContainer onClick={(number) => nextPage(number)}>
       <FontAwesomeIcon
         icon={faAngleDoubleDown}
         color={theme === "light" ? "#ffc34d" : "#5769AD"}

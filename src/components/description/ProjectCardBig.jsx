@@ -1,6 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
-import Typography from "@material-ui/core/Typography";
 import _CardMedia from "@material-ui/core/CardMedia";
 import styled from "styled-components";
 import { Button, Card as _Card, Highlight } from "../../pages/style";
@@ -38,7 +36,7 @@ const ButtonsContainer = styled.div`
 `;
 
 const ProjectCardBig = (props) => {
-  const { project, handleChange, theme } = props;
+  const { project, handleChange } = props;
   return (
     <div>
       <Card>

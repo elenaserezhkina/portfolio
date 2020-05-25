@@ -1,5 +1,4 @@
 import _Card from "@material-ui/core/Card";
-import _CardHeader from "@material-ui/core/CardHeader";
 import _CardMedia from "@material-ui/core/CardMedia";
 import styled from "styled-components";
 import { Button as _Button } from "@material-ui/core";

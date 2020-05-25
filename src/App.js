@@ -25,7 +25,6 @@ function App() {
   const handlePageChange = (number) => {
     setCurrentPage(number); // set currentPage number, to reset it from the previous selected.
   };
-
   return (
     <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
       <>
@@ -34,8 +33,12 @@ function App() {
           pageOnChange={handlePageChange}
           customPageNumber={currentPage}
         >
-          <LandingPage toggleTheme={toggleTheme} theme={theme} />
-          <Projects theme={theme} />
+          <LandingPage
+            toggleTheme={toggleTheme}
+            theme={theme}
+            onClick={handlePageChange}
+          />
+          <Projects theme={theme} onClick={handlePageChange} />
           <AboutMe theme={theme} />
         </ReactPageScroller>
       </>

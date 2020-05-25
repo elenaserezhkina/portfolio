@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { FontAwesomeIcon as _FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Toggle from "../components/Toggle";
 import Links from "../components/Links";
@@ -45,7 +44,7 @@ const LandingPage = (props) => {
           </MainHeader>
         </BackgroundBlur>
         <Links theme={props.theme} />
-        <ScrollDown theme={props.theme} />
+        <ScrollDown theme={props.theme} nextPage={() => props.onClick(1)} />
       </PageContainer>
     </BackgroundImage>
   );

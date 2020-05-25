@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import PropTypes from "prop-types";
+import React, { useState } from "react";
 import ProjectCardBig from "../components/description/ProjectCardBig";
 import ScrollDown from "../components/ScrollDown";
 import {
@@ -33,8 +32,11 @@ const Projects = (props) => {
       <h1>My projects</h1>
       <Container>
         <ProjectsPreview>
-          {projects.map((project) => (
-            <SmallCard onClick={() => setSelectedProject(project)}>
+          {projects.map((project, key) => (
+            <SmallCard
+              onClick={() => setSelectedProject(project)}
+              key={project.title}
+            >
               <h2>{project.title}</h2>
               <h3>{project.subheader}</h3>
               <CardMedia image={project.image} title={project.imgTitle} />
@@ -49,7 +51,7 @@ const Projects = (props) => {
           />
         </ProjectsDescription>
       </Container>
-      <ScrollDown theme={props.theme} />
+      <ScrollDown theme={props.theme} nextPage={() => props.onClick(2)} />
     </PageContainer>
   );
 };
