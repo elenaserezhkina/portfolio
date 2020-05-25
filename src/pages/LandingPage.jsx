@@ -7,23 +7,38 @@ import Toggle from "../components/Toggle";
 import Links from "../components/Links";
 import ScrollDown from "../components/ScrollDown";
 
-import { PageContainer } from "./style";
+import { PageContainer as _PageContainer } from "./style";
 
 const ToggleContainer = styled.div`
   display: flex;
   padding: 10px;
 `;
+const PageContainer = styled(_PageContainer)`
+  // background-image: url("/background.svg");
+  // background-size: cover;
+`;
+
+const BackgroundImage = styled.div`
+  background-image: url("/6.svg");
+  height: 100%;
+  width: 100%;
+  background-size: auto 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+`;
 
 const LandingPage = (props) => {
   return (
-    <PageContainer>
-      <ToggleContainer>
-        <Toggle theme={props.theme} toggleTheme={props.toggleTheme} />
-      </ToggleContainer>
-      <h1>Hello, I am Olena and I build responsive websites.</h1>
-      <Links />
-      <ScrollDown theme={props.theme} />
-    </PageContainer>
+    <BackgroundImage>
+      <PageContainer>
+        <ToggleContainer>
+          <Toggle theme={props.theme} toggleTheme={props.toggleTheme} />
+        </ToggleContainer>
+        <h1>Hello, I am Olena and I build responsive websites.</h1>
+        <Links />
+        <ScrollDown theme={props.theme} />
+      </PageContainer>
+    </BackgroundImage>
   );
 };
 
