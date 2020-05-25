@@ -22,7 +22,7 @@ const FontAwesomeIcon = styled(_FontAwesomeIcon)`
 
 const LandingPage = (props) => {
   return (
-    <div>
+    <>
       <Toggle theme={props.theme} toggleTheme={props.toggleTheme} />
       <h1>Hello, I am Olena and I build responsive websites.</h1>
       <Links />
@@ -32,7 +32,7 @@ const LandingPage = (props) => {
           color={props.theme === "light" ? "#ffc34d" : "#5769AD"}
         />
       </ScrollContainer>
-    </div>
+    </>
   );
 };
 

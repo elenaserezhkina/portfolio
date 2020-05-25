@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import ProjectCardBig from "../components/description/ProjectCardBig";
 import {
@@ -14,6 +14,19 @@ import { projects } from "../components/projects/allProjets";
 const Projects = (props) => {
   const [selectedProject, setSelectedProject] = useState(projects[0]);
 
+  const handleChange = (number) => {
+    let currentIndex = projects.indexOf(selectedProject);
+    let arrayLength = projects.length;
+
+    if (currentIndex === 0 && number === -1) {
+      setSelectedProject(projects[arrayLength - 1]);
+    } else if (currentIndex === arrayLength - 1 && number === +1) {
+      setSelectedProject(projects[0]);
+    } else {
+      setSelectedProject(projects[currentIndex + number]);
+    }
+  };
+
   return (
     <div>
       <h1>My projects</h1>
@@ -27,7 +40,10 @@ const Projects = (props) => {
           ))}
         </ProjectsPreview>
         <ProjectsDescription>
-          <ProjectCardBig project={selectedProject} />
+          <ProjectCardBig
+            project={selectedProject}
+            handleChange={handleChange}
+          />
         </ProjectsDescription>
       </Container>
     </div>
