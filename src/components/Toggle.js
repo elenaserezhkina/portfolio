@@ -13,12 +13,11 @@ const ToggleContainer = styled.button`
   display: flex;
   font-size: 0.5rem;
   justify-content: space-between;
-  margin: 15px;
   overflow: hidden;
   padding: 0.5rem;
   position: relative;
-  width: 8rem;
-  height: 4rem;
+  width: 7rem;
+  height: 3, 5rem;
   @media only screen and (max-width: 550px) {
     width: 6rem;
     height: 3rem;

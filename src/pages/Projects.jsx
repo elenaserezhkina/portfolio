@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import ProjectCardBig from "../components/description/ProjectCardBig";
+import ScrollDown from "../components/ScrollDown";
 import {
   Container,
   ProjectsPreview,
@@ -43,9 +44,11 @@ const Projects = (props) => {
           <ProjectCardBig
             project={selectedProject}
             handleChange={handleChange}
+            theme={props.theme}
           />
         </ProjectsDescription>
       </Container>
+      <ScrollDown theme={props.theme} />
     </div>
   );
 };

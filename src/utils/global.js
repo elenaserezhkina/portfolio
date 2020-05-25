@@ -37,5 +37,22 @@ export const GlobalStyles = createGlobalStyle`
     width: 80%;
   }
 }
-  
+h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  @media only screen and (max-width: 550px) {
+    font-size: 25px;
+  }
+}
+h3 {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+  @media only screen and (max-width: 550px) {
+    font-size: 18px;
+  }
+}
   `;

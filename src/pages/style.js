@@ -24,8 +24,9 @@ export const ProjectsPreview = styled.div`
 export const ProjectsDescription = styled.div`
   width: 60%;
   padding: 5px;
+  margin: 0 auto;
   @media only screen and (max-width: 825px) {
-    width: 100%;
+    width: 95%;
     transition: all 0.3s linear;
   }
 `;
@@ -33,9 +34,12 @@ export const Card = styled(_Card)`
   width: 150px;
   margin: 0 5px 5px 5px;
   height: 200px;
+  &.MuiPaper-root {
+    background-color: ${({ theme }) => theme.card};
+  }
 `;
 export const CardHeader = styled(_CardHeader)`
-  color: darkblue;
+  color: ${({ theme }) => theme.text};
 `;
 export const CardMedia = styled(_CardMedia)`
   margin: 0 auto;
@@ -46,4 +50,7 @@ export const CardMedia = styled(_CardMedia)`
 
 export const Button = styled(_Button)`
   color: darkblue;
+  span {
+    color: ${({ theme }) => theme.text};
+  }
 `;

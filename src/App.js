@@ -35,8 +35,8 @@ function App() {
           customPageNumber={currentPage}
         >
           <LandingPage toggleTheme={toggleTheme} theme={theme} />
-          <Projects />
-          <AboutMe />
+          <Projects theme={theme} />
+          <AboutMe theme={theme} />
         </ReactPageScroller>
       </>
     </ThemeProvider>
