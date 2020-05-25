@@ -1,7 +1,7 @@
 import React from "react";
 // import PropTypes from 'prop-types';
 import CardContent from "@material-ui/core/CardContent";
-import Typography from "@material-ui/core/Typography";
+import _Typography from "@material-ui/core/Typography";
 import styled from "styled-components";
 import {
   Container,
@@ -25,6 +25,13 @@ const Card = styled(_Card)`
     transition: all 0.3s linear;
   }
 `;
+const Typography = styled(_Typography)`
+  @media only screen and (max-width: 500px) {
+    &.MuiTypography-body1 {
+      font-size: 15px;
+    }
+  }
+`;
 
 const AboutMe = (props) => {
   return (
@@ -33,7 +40,7 @@ const AboutMe = (props) => {
       <Container>
         <Card>
           <CardContent>
-            <Typography variant="body2" component="p">
+            <Typography variant="body1" component="p">
               In the middle of 2019, I’ve challenged myself to become a{" "}
               <Highlight>Web Developer</Highlight> and started to learn
               programming by myself 👩‍💻.
