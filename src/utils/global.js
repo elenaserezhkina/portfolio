@@ -35,6 +35,7 @@ export const GlobalStyles = createGlobalStyle`
   @media only screen and (max-width: 550px) {
     font-size: 30px;
     width: 80%;
+    padding: 10px;
   }
 }
 h2 {

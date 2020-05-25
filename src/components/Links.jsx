@@ -8,6 +8,8 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
+import { BackgroundBlur } from "../pages/style";
+
 const FontAwesomeIcon = styled(_FontAwesomeIcon)`
   font-size: 65px;
   margin: 15px;
@@ -20,20 +22,17 @@ const LinksContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 500px;
-  margin: 25px auto;
-  @media only screen and (max-width: 500px) {
-    width: 90%;
-  }
   a {
     text-decoration: none;
     color: inherit;
   }
+  z-index: 2;
+  position: relative;
 `;
 
 const Links = (props) => {
   return (
-    <div>
+    <BackgroundBlur>
       <LinksContainer>
         <a href="https://github.com/elenaserezhkina">
           <FontAwesomeIcon icon={faGithub} />
@@ -51,7 +50,7 @@ const Links = (props) => {
           <FontAwesomeIcon icon={faInstagram} />
         </a>
       </LinksContainer>
-    </div>
+    </BackgroundBlur>
   );
 };
 

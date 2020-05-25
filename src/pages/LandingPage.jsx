@@ -7,7 +7,7 @@ import Toggle from "../components/Toggle";
 import Links from "../components/Links";
 import ScrollDown from "../components/ScrollDown";
 
-import { PageContainer as _PageContainer } from "./style";
+import { PageContainer as _PageContainer, BackgroundBlur } from "./style";
 
 const ToggleContainer = styled.div`
   display: flex;
@@ -27,6 +27,11 @@ const BackgroundImage = styled.div`
   background-repeat: no-repeat;
 `;
 
+const MainHeader = styled.h1`
+  z-index: 2;
+  position: relative;
+`;
+
 const LandingPage = (props) => {
   return (
     <BackgroundImage>
@@ -34,8 +39,12 @@ const LandingPage = (props) => {
         <ToggleContainer>
           <Toggle theme={props.theme} toggleTheme={props.toggleTheme} />
         </ToggleContainer>
-        <h1>Hello, I am Olena and I build responsive websites.</h1>
-        <Links />
+        <BackgroundBlur>
+          <MainHeader>
+            Hello, I am Olena and I build responsive websites.
+          </MainHeader>
+        </BackgroundBlur>
+        <Links theme={props.theme} />
         <ScrollDown theme={props.theme} />
       </PageContainer>
     </BackgroundImage>

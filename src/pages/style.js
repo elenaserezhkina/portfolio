@@ -88,3 +88,24 @@ export const Highlight = styled.span`
     color: ${({ theme }) => theme.highlight};
   }
 `;
+
+export const BackgroundBlur = styled.div`
+  max-width: 500px;
+  margin: 25px auto;
+  @media only screen and (max-width: 500px) {
+    width: 90%;
+  }
+  @media only screen and (max-width: 800px) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: ${({ theme }) => theme.background};
+      filter: blur(10px);
+    }
+  }
+  position: relative;
+`;
