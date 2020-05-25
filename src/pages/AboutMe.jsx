@@ -3,22 +3,32 @@ import React from "react";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import styled from "styled-components";
-import { Container, BigImage, Card as _Card, Highlight } from "./style";
+import {
+  Container,
+  BigImage,
+  Card as _Card,
+  Highlight,
+  PageContainer,
+} from "./style";
+import Footer from "../components/Footer";
 
 const Card = styled(_Card)`
   width: 60%;
   margin-left: 5px;
   max-width: 700px;
+  height: 100%;
+  min-height: 350px;
   @media only screen and (max-width: 700px) {
     width: 95%;
     margin: 0 auto;
+    margin-left: auto;
     transition: all 0.3s linear;
   }
 `;
 
 const AboutMe = (props) => {
   return (
-    <div>
+    <PageContainer>
       <h1>About me here</h1>
       <Container>
         <Card>
@@ -45,22 +55,7 @@ const AboutMe = (props) => {
         </Card>
         <BigImage></BigImage>
       </Container>
-      <span>Credits:</span>
-      <small>
-        <b>Sun</b> icon made by
-        <a href="https://www.flaticon.com/authors/smalllikeart">smalllikeart</a>
-        from <a href="https://www.flaticon.com">www.flaticon.com</a>
-      </small>
-      <small>
-        <b>Moon</b> icon made by
-        <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
-          Freepik
-        </a>
-        from
-        <a href="https://www.flaticon.com/" title="Flaticon">
-          www.flaticon.com
-        </a>
-      </small>
+      <Footer theme={props.theme} />
 
       {/* <div>
         Icons made by{" "}
@@ -75,7 +70,7 @@ const AboutMe = (props) => {
           www.flaticon.com
         </a>
       </div> */}
-    </div>
+    </PageContainer>
   );
 };
 

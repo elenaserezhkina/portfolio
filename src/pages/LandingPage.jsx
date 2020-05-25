@@ -7,6 +7,8 @@ import Toggle from "../components/Toggle";
 import Links from "../components/Links";
 import ScrollDown from "../components/ScrollDown";
 
+import { PageContainer } from "./style";
+
 const ToggleContainer = styled.div`
   display: flex;
   padding: 10px;
@@ -14,14 +16,14 @@ const ToggleContainer = styled.div`
 
 const LandingPage = (props) => {
   return (
-    <>
+    <PageContainer>
       <ToggleContainer>
         <Toggle theme={props.theme} toggleTheme={props.toggleTheme} />
       </ToggleContainer>
       <h1>Hello, I am Olena and I build responsive websites.</h1>
       <Links />
       <ScrollDown theme={props.theme} />
-    </>
+    </PageContainer>
   );
 };
 

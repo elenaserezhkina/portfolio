@@ -6,6 +6,7 @@ export const lightTheme = {
   gradient: "linear-gradient(#39598A, #79D7ED)",
   card: "#fff",
   subHeader: "#5d5d5d",
+  footer: "#c8c8c8",
 };
 
 export const darkTheme = {
@@ -16,4 +17,5 @@ export const darkTheme = {
   gradient: "linear-gradient(#091236, #1E215D)",
   card: "#00000040",
   subHeader: "#ffffff8a",
+  footer: "#00000040",
 };

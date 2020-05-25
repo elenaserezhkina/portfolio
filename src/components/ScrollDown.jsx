@@ -4,9 +4,9 @@ import styled from "styled-components";
 import { FontAwesomeIcon as _FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ScrollContainer = styled.div`
-  //   position: absolute;
-  //   bottom: 1px;
-  //   left: 50%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
 `;
 const FontAwesomeIcon = styled(_FontAwesomeIcon)`
   font-size: 65px;

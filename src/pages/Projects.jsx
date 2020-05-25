@@ -8,6 +8,7 @@ import {
   ProjectsDescription,
   SmallCard,
   CardMedia,
+  PageContainer,
 } from "./style";
 import { projects } from "../components/projects/allProjets";
 
@@ -28,7 +29,7 @@ const Projects = (props) => {
   };
 
   return (
-    <div>
+    <PageContainer>
       <h1>My projects</h1>
       <Container>
         <ProjectsPreview>
@@ -49,7 +50,7 @@ const Projects = (props) => {
         </ProjectsDescription>
       </Container>
       <ScrollDown theme={props.theme} />
-    </div>
+    </PageContainer>
   );
 };
 
