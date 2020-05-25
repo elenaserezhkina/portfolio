@@ -12,7 +12,7 @@ export const PageContainer = styled.div`
 export const Container = styled.div`
   display: flex;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   justify-content: space-between;
 `;

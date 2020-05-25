@@ -11,10 +11,13 @@ const CardBody = styled.div`
   display: flex;
 `;
 const RightSection = styled.div`
-  width: 35%;
+  display: flex;
+  align-items: center;
 `;
 const LeftSection = styled.div`
   width: 65%;
+  flex-grow: 1;
+  padding: 0 5px;
   @media only screen and (max-width: 500px) {
     transition: all 0.3s linear;
     font-size: 15px;
@@ -23,9 +26,13 @@ const LeftSection = styled.div`
 const CardMedia = styled(_CardMedia)`
   height: 310px;
   width: 165px;
+  @media only screen and (max-width: 500px) {
+    transition: all 0.3s linear;
+    height: 240px;
+    width: 120px;
+  }
 `;
 const Technologies = styled.div`
-  max-width: 300px;
   margin-bottom: 10px;
 `;
 const Description = styled(Technologies)``;
