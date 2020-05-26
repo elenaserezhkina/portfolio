@@ -20,7 +20,7 @@ const LeftSection = styled.div`
   padding: 0 5px;
   @media only screen and (max-width: 500px) {
     transition: all 0.3s linear;
-    font-size: 15px;
+    font-size: 14px;
   }
 `;
 const CardMedia = styled(_CardMedia)`
