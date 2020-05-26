@@ -6,15 +6,11 @@ import Toggle from "../components/Toggle";
 import Links from "../components/Links";
 import ScrollDown from "../components/ScrollDown";
 
-import { PageContainer as _PageContainer, BackgroundBlur } from "./style";
+import { PageContainer, BackgroundBlur } from "./style";
 
 const ToggleContainer = styled.div`
   display: flex;
   padding: 10px;
-`;
-const PageContainer = styled(_PageContainer)`
-  // background-image: url("/background.svg");
-  // background-size: cover;
 `;
 
 const BackgroundImage = styled.div`

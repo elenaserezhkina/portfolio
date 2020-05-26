@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon as _FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAt } from "@fortawesome/free-solid-svg-icons";
-import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -43,10 +43,10 @@ const Links = (props) => {
           href="https://drive.google.com/file/d/1tB8dpAu2zDzNCNlkTiIvrkzztK1fc1kS/view?usp=sharing"
           target="_blank"
         >
-          <FontAwesomeIcon icon={faFileAlt} />
+          <FontAwesomeIcon icon={faAddressCard} />
         </a>
         <a href="mailto:o.shutovska@gmail.com" target="_blank">
-          <FontAwesomeIcon icon={faAt} />
+          <FontAwesomeIcon icon={faEnvelope} />
         </a>
         <a href="https://www.instagram.com/elenaserezhkina/" target="_blank">
           <FontAwesomeIcon icon={faInstagram} />
