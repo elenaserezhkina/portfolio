@@ -7,6 +7,7 @@ const ScrollContainer = styled.div`
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
+  cursor: pointer;
 `;
 const FontAwesomeIcon = styled(_FontAwesomeIcon)`
   font-size: 65px;

@@ -45,6 +45,7 @@ export const SmallCard = styled(Card)`
   width: 150px;
   margin: 0 5px 5px 5px;
   height: 130px;
+  cursor: pointer;
   > h2 {
     font-size: 20px;
   }
