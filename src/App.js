@@ -38,8 +38,9 @@ function App() {
             theme={theme}
             onClick={handlePageChange}
           />
-          <Projects theme={theme} onClick={handlePageChange} />
-          <AboutMe theme={theme} />
+
+          <AboutMe theme={theme} onClick={handlePageChange} />
+          <Projects theme={theme} />
         </ReactPageScroller>
       </>
     </ThemeProvider>

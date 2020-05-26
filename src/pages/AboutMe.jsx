@@ -10,7 +10,7 @@ import {
   Highlight,
   PageContainer,
 } from "./style";
-import Footer from "../components/Footer";
+import ScrollDown from "../components/ScrollDown";
 
 const Card = styled(_Card)`
   width: 60%;
@@ -28,6 +28,7 @@ const Card = styled(_Card)`
 const Typography = styled(_Typography)`
   font-size: 20px;
   padding-bottom: 10px;
+
   @media only screen and (min-width: 500px) and (max-width: 800px) {
     padding-bottom: 8px;
     &.MuiTypography-body1 {
@@ -76,7 +77,7 @@ const AboutMe = (props) => {
         </Card>
         <BigImage></BigImage>
       </Container>
-      <Footer theme={props.theme} />
+      <ScrollDown theme={props.theme} nextPage={() => props.onClick(2)} />
     </PageContainer>
   );
 };

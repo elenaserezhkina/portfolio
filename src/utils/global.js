@@ -20,7 +20,7 @@ export const GlobalStyles = createGlobalStyle`
     height: 100vh;
     margin: 0;
     padding: 0;
-    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     transition: all 0.25s linear;
     @media only screen and (max-width: 500px) {
       transition: all 0.3s linear;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ProjectCardBig from "../components/description/ProjectCardBig";
-import ScrollDown from "../components/ScrollDown";
+import Footer from "../components/Footer";
 import {
   Container,
   ProjectsPreview,
@@ -51,7 +51,7 @@ const Projects = (props) => {
           />
         </ProjectsDescription>
       </Container>
-      <ScrollDown theme={props.theme} nextPage={() => props.onClick(2)} />
+      <Footer theme={props.theme} />
     </PageContainer>
   );
 };
