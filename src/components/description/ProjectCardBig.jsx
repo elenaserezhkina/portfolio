@@ -84,11 +84,12 @@ const ProjectCardBig = (props) => {
               <Highlight>
                 {project.demo && project.github ? (
                   <>
-                    <a href={project.demo}>Demo and </a>
+                    <a href={project.demo}>Demo </a>
+                    <span>and </span>
                     <a href={project.github}>Github</a>{" "}
                   </>
                 ) : project.demo ? (
-                  <a href={project.demo}>Demo and </a>
+                  <a href={project.demo}>Demo </a>
                 ) : project.github ? (
                   <a href={project.github}>Github</a>
                 ) : (

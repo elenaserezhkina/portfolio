@@ -9,7 +9,7 @@ export const projects = [
     description: "Project made for online shop selling designer laces ",
     companyLink: "https://www.lacesup.es/",
     myInput:
-      "I was working mainly with backend, developing a general layout for the backend structure, finding the best format for the schemas. I also deployed website to Heroku and connected the DB on Atlas to it. In the frontend I created laces and TODO ",
+      "I was working mainly with backend, creating schemas for the database modals and implementing parts of REST API. I also deployed backend to Heroku and connected it to the DB on Atlas. In the frontend I was working on displaying laces on the selected shoe.",
     demo: "https://hardcore-austin-68e6f2.netlify.app/",
     github: "https://github.com/elenaserezhkina/laces_back",
   },
