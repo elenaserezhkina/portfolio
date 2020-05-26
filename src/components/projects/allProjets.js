@@ -50,7 +50,7 @@ export const projects = [
   {
     title: "WIKI-Audio",
     subheader: "Hackathon project",
-    image: "",
+    image: "/getYourGuide.png",
     imgTitle: "wiki audio project",
     specialization: "Front-end",
     technologies: ["React", "CSS", "Material UI", "different libraries"],
