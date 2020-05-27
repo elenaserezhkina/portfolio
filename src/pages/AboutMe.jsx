@@ -61,7 +61,8 @@ const AboutMe = (props) => {
               great time with a mixture of in-class and online learning, dojos
               and online challenges, workshops, hackathons and lots of projects
               where I gained important tech skills, used SCRUM agile methodology
-              with my team, and got experience working with a real client.
+              with my team, and got experience working with a client (Workademy)
+              under WCS.
             </Typography>
             <Typography>
               💻 Technologies used: JavaScript, HTML5, CSS3, Bootstrap, ReactJS,
