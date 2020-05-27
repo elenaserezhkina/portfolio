@@ -90,7 +90,6 @@ export const Highlight = styled.span`
 `;
 
 export const BackgroundBlur = styled.div`
-  max-width: 500px;
   margin: 25px auto;
   @media only screen and (max-width: 500px) {
     width: 90%;
