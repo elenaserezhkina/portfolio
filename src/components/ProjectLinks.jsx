@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const Github = styled.div`
-  width: 270px;
   height: 35px;
   background-color: #919191b8;
   border-radius: 5px;
@@ -11,7 +10,6 @@ const Github = styled.div`
   text-align: center;
 `;
 const Demo = styled.div`
-  width: 270px;
   height: 35px;
   background-color: #81c783b8;
   border-radius: 5px;
@@ -21,6 +19,8 @@ const Demo = styled.div`
 `;
 
 const Container = styled.div`
+  width: 270px;
+
   a {
     color: inherit;
     text-decoration: inherit;

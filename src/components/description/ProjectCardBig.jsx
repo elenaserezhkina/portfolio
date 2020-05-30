@@ -6,15 +6,25 @@ import PhoneCard from "../PhoneCard";
 
 const Container = styled.div`
   // padding: 30px 0;
+  position: relative;
 `;
 const Card = styled(_Card)`
-  padding: 15px;
-  display: flex;
+  // padding: 15px;
+  // display: flex;
 `;
 
 const RightSection = styled.div`
   display: flex;
   align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding-right: 20px;
+
+
+ 
+}
 `;
 const LeftSection = styled.div`
   width: 65%;
@@ -76,12 +86,12 @@ const ProjectCardBig = (props) => {
             </div>
           </Technologies>
         </LeftSection>
-        {/* <RightSection>
-          <PhoneCard image={project.image} title={project.title}></PhoneCard>
-        </RightSection> */}
       </Card>
+      <RightSection>
+        <PhoneCard image={project.image} title={project.title}></PhoneCard>
+      </RightSection>
       <ButtonsContainer>
-        <Button onClick={() => handleChange(-1)}>Previous</Button>
+        {/* <Button onClick={() => handleChange(-1)}>Previous</Button> */}
         <Button onClick={() => handleChange(+1)}>Next</Button>
       </ButtonsContainer>
     </Container>
