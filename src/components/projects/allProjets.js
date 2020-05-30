@@ -62,7 +62,7 @@ export const projects = [
     description: "An online B2B course creation platform made for ",
     companyLink: "https://www.theworkademy.com/",
     myInput:
-      "I was adapting the mockups, creating and styling React components, implementing navigation, adding a global state using Redux, writing logic for creating, modifying course information, integrating ‘drag and drop’ library, creating a complex JSON object according to the API specifications.",
+      "I was adapting the mockups, implementing navigation, adding a global state using Redux, writing logic for creating, modifying course information, integrating ‘drag and drop’ library, creating a complex JSON object according to the API specifications.",
     demo: "",
     github: "https://github.com/chudaol/workademy",
   },

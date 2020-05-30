@@ -22,13 +22,17 @@ const RightSection = styled.div`
   bottom: 0;
   padding-right: 20px;
 
-
+  @media only screen and (max-width: 500px) {
+    transition: all 0.3s linear;
+    bottom: auto;
+    top: 20px;
+  }
  
 }
 `;
 const LeftSection = styled.div`
-  width: 65%;
-  flex-grow: 1;
+  width: 55%;
+  flex-grow: 2;
   padding: 0 5px;
   @media only screen and (max-width: 500px) {
     transition: all 0.3s linear;
