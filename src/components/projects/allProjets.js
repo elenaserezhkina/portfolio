@@ -1,3 +1,34 @@
+const materialUi = {
+  img: "https://img.icons8.com/color/48/000000/material-ui.png",
+  alt: "Material UI",
+};
+const nodeJs = {
+  img: "https://img.icons8.com/color/48/000000/nodejs.png",
+  alt: "Node Js",
+};
+const scss = {
+  img: "https://img.icons8.com/color/48/000000/sass.png",
+  alt: "SCSS",
+};
+const css = {
+  img: "https://img.icons8.com/color/48/000000/css3.png",
+  alt: "CSS",
+};
+const react = {
+  img: "https://img.icons8.com/color/48/000000/react-native.png",
+  alt: "React",
+};
+const mongoDb = {
+  img: "https://img.icons8.com/color/48/000000/mongodb.png",
+  alt: "mongoDB",
+};
+const styledComponents = "";
+const express = "";
+const redux = {
+  img: "https://img.icons8.com/color/48/000000/redux.png",
+  alt: "Redux",
+};
+
 export const projects = [
   {
     title: "Laces Up",
@@ -5,6 +36,7 @@ export const projects = [
     image: "/lacesUp.png",
     imgTitle: "shoe with laces",
     specialization: "Fullstack",
+    stack: [nodeJs, react, mongoDb],
     technologies: ["Node.js", "Express", "Mongoose", "React"],
     description: "Project made for online shop selling designer laces ",
     companyLink: "https://www.lacesup.es/",
@@ -19,6 +51,7 @@ export const projects = [
     image: "/workademy.png",
     imgTitle: "Workademy logo",
     specialization: "Front-end",
+    stack: [react, materialUi, redux],
     technologies: [
       "React",
       "Redux",
@@ -41,6 +74,7 @@ export const projects = [
     image: "/beerApp.png",
     imgTitle: "Beer picture",
     specialization: "Front-end",
+    stack: [react, materialUi, scss],
     technologies: ["React", "SCSS", "Material UI", "different libraries"],
     myInput:
       "During the project I worked on routing, navigation, creation of small components, fetching API and putting things together.",
@@ -53,9 +87,10 @@ export const projects = [
     image: "/getYourGuide.png",
     imgTitle: "wiki audio project",
     specialization: "Front-end",
+    stack: [react, materialUi, css],
     technologies: ["React", "CSS", "Material UI", "different libraries"],
     description:
-      "The app was made during the hackathon in a team of 3 people. Our project received the first prize from Twilio. Post about this event",
+      "The app was made during the hackathon in a team of 3 people. Our project received the first prize from Twilio.",
     myInput:
       "I was responsible for the front-end part: used Material UI for different components and integrated mapbox library into our project.",
     link:
@@ -67,6 +102,7 @@ export const projects = [
     image: "/heroship.png",
     imgTitle: "preview of Heroship website",
     specialization: "Front-end",
+    stack: [react, materialUi, css],
     technologies: ["React", "CSS", "Material UI", "different libraries"],
     description:
       "Project made during 2 days of hackathon with 2 teammates. Using SuperHero API we created a dating application on React that allows users to browse different hero profiles, check details about them and choose the match.",

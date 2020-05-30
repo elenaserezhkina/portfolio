@@ -41,6 +41,43 @@ const Footer = ({ theme }) => {
           www.flaticon.com
         </a>
       </SmallParagraph>
+      <SmallParagraph>
+        <a href="https://icons8.com/icon/gFw7X5Tbl3ss/material-ui">
+          Material Ui icon by Icons8
+        </a>
+      </SmallParagraph>
+      <SmallParagraph>
+        <a href="https://icons8.com/icon/54087/nodejs">Nodejs icon by Icons8</a>
+      </SmallParagraph>
+
+      <SmallParagraph>
+        <a href="https://icons8.com/icon/QBqFNfPPB2Kx/sass">
+          Sass icon by Icons8
+        </a>
+      </SmallParagraph>
+      <SmallParagraph>
+        <a href="https://icons8.com/icon/21278/css3">CSS3 icon by Icons8</a>
+      </SmallParagraph>
+      <SmallParagraph>
+        <a href="https://icons8.com/icon/123603/react-native">
+          React Native icon by Icons8
+        </a>
+      </SmallParagraph>
+
+      <SmallParagraph>
+        <a href="https://icons8.com/icon/74402/mongodb">
+          MongoDB icon by Icons8
+        </a>
+      </SmallParagraph>
+      <SmallParagraph>
+        <a href="https://icons8.com/icon/jD-fJzVguBmw/redux">
+          Redux icon by Icons8
+        </a>
+      </SmallParagraph>
+      <SmallParagraph></SmallParagraph>
+      <SmallParagraph></SmallParagraph>
+      <SmallParagraph></SmallParagraph>
+      <SmallParagraph></SmallParagraph>
     </Container>
   );
 };
