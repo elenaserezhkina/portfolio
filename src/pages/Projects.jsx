@@ -1,15 +1,23 @@
 import React, { useState } from "react";
 import ProjectCardBig from "../components/description/ProjectCardBig";
 import Footer from "../components/Footer";
+import styled from "styled-components";
 import {
   Container,
   ProjectsPreview,
   ProjectsDescription,
-  SmallCard,
-  CardMedia,
+  SmallCard as _SmallCard,
   PageContainer,
 } from "./style";
 import { projects } from "../components/projects/allProjets";
+
+const SmallCard = styled(_SmallCard)`
+  background-image: ${(props) =>
+      !props.selected &&
+      "linear-gradient(rgba(4, 4, 4, 0.56), rgba(0, 0, 0, 0.35)), "}
+    url(${(props) => props.value});
+  background-size: cover;
+`;
 
 const Projects = (props) => {
   const [selectedProject, setSelectedProject] = useState(projects[0]);
@@ -36,10 +44,11 @@ const Projects = (props) => {
             <SmallCard
               onClick={() => setSelectedProject(project)}
               key={project.title}
+              value={project.image}
+              selected={selectedProject === project}
             >
-              <h2>{project.title}</h2>
-              <h3>{project.subheader}</h3>
-              <CardMedia image={project.image} title={project.imgTitle} />
+              {/* <h2>{project.title}</h2>
+              <h3>{project.subheader}</h3> */}
             </SmallCard>
           ))}
         </ProjectsPreview>

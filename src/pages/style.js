@@ -54,12 +54,12 @@ export const SmallCard = styled(Card)`
   }
 `;
 
-export const CardMedia = styled(_CardMedia)`
-  margin: 0 auto;
-  color: white;
-  width: 70px;
-  height: 78px;
-`;
+// export const CardMedia = styled(_CardMedia)`
+//   margin: 0 auto;
+//   color: white;
+//   width: 70px;
+//   height: 78px;
+// `;
 
 export const Button = styled(_Button)`
   color: darkblue;
