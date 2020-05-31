@@ -10,6 +10,7 @@ export const PageContainer = styled.div`
   height: 100%;
 `;
 export const Container = styled.div`
+  height: inherit;
   display: flex;
   width: 100%;
   max-width: 1400px;
@@ -17,22 +18,25 @@ export const Container = styled.div`
   justify-content: space-between;
 `;
 export const ProjectsPreview = styled.div`
-  width: 40%;
-  padding: 5px;
+  width: 30%;
+  padding: 10px 0;
   display: flex;
+  max-height: 500px;
   flex-wrap: wrap;
+  justify-content: center;
   @media only screen and (max-width: 825px) {
     display: none;
     transition: all 0.3s linear;
   }
 `;
 export const ProjectsDescription = styled.div`
-  width: 60%;
+  width: 70%;
   padding: 5px;
-  margin: 0 auto;
+  margin: 10px auto;
   @media only screen and (max-width: 825px) {
     width: 95%;
     transition: all 0.3s linear;
+    padding: 5px;
   }
 `;
 export const Card = styled(_Card)`
@@ -42,9 +46,9 @@ export const Card = styled(_Card)`
   }
 `;
 export const SmallCard = styled(Card)`
-  width: 150px;
+  width: 100px;
   margin: 0 5px 5px 5px;
-  height: 130px;
+  height: 100px;
   cursor: pointer;
   > h2 {
     font-size: 20px;

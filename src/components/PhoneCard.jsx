@@ -8,7 +8,7 @@ const CardMedia = styled.div`
   border-radius: 30px;
   background-image: url(${(props) => props.image});
   background-size: cover;
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     transition: all 0.3s linear;
     height: 240px;
     width: 120px;
@@ -26,7 +26,7 @@ const PhoneImage = styled.div`
   bottom: -23px;
   top: -20px;
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     transition: all 0.3s linear;
     left: -34px;
     right: -6px;

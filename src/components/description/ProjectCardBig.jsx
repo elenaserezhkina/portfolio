@@ -22,7 +22,7 @@ const RightSection = styled.div`
   bottom: 0;
   padding-right: 20px;
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     transition: all 0.3s linear;
     bottom: auto;
     top: 20px;
