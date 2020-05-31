@@ -33,7 +33,7 @@ export const projects = [
   {
     title: "Laces Up",
     subheader: "Hackathon project",
-    image: "/lacesUp.png",
+    image: "/lacesUp.jpg",
     imgTitle: "shoe with laces",
     specialization: "Fullstack",
     stack: [nodeJs, react, mongoDb],
@@ -48,7 +48,7 @@ export const projects = [
   {
     title: "Workademy",
     subheader: "Client project",
-    image: "/workademy.png",
+    image: "/workademy.jpg",
     imgTitle: "Workademy logo",
     specialization: "Front-end",
     stack: [react, materialUi, redux],
@@ -71,7 +71,7 @@ export const projects = [
     subheader: "Project at WCS",
     description:
       "React app that uses Punk API and allows users to find beers based on multiple criteria.",
-    image: "/beerApp.png",
+    image: "/beerApp.jpg",
     imgTitle: "Beer picture",
     specialization: "Front-end",
     stack: [react, materialUi, scss],
@@ -84,7 +84,7 @@ export const projects = [
   {
     title: "WIKI-Audio",
     subheader: "Hackathon project",
-    image: "/getYourGuide.png",
+    image: "/getYourGuide.jpg",
     imgTitle: "wiki audio project",
     specialization: "Front-end",
     stack: [react, materialUi, css],
@@ -99,7 +99,7 @@ export const projects = [
   {
     title: "Heroship",
     subheader: "Hackathon project",
-    image: "/heroship.png",
+    image: "/heroship.jpg",
     imgTitle: "preview of Heroship website",
     specialization: "Front-end",
     stack: [react, materialUi, css],

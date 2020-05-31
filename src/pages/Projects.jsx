@@ -24,8 +24,7 @@ const RightSection = styled.div`
   align-items: center;
   position: absolute;
   right: 0;
-  top: 0;
-  bottom: 0;
+  top: -3px;
   padding-right: 20px;
 
   @media only screen and (max-width: 600px) {
