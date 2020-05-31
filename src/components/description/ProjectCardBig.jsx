@@ -30,6 +30,11 @@ const MyInput = styled(Technologies)``;
 const ButtonsContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  margin-right: 300px;
+  @media only screen and (max-width: 600px) {
+    transition: all 0.3s linear;
+    margin-right: 10px;
+  }
 `;
 
 const ProjectCardBig = (props) => {
@@ -75,7 +80,7 @@ const ProjectCardBig = (props) => {
       </Card>
 
       <ButtonsContainer>
-        {/* <Button onClick={() => handleChange(-1)}>Previous</Button> */}
+        <Button onClick={() => handleChange(-1)}>Previous</Button>
         <Button onClick={() => handleChange(+1)}>Next</Button>
       </ButtonsContainer>
     </Container>

@@ -24,7 +24,7 @@ export const ProjectsPreview = styled.div`
   max-height: 500px;
   flex-wrap: wrap;
   justify-content: center;
-  @media only screen and (max-width: 825px) {
+  @media only screen and (max-width: 935px) {
     display: none;
     transition: all 0.3s linear;
   }
@@ -34,7 +34,7 @@ export const ProjectsDescription = styled.div`
   width: 70%;
   padding: 5px;
   margin: 10px auto;
-  @media only screen and (max-width: 825px) {
+  @media only screen and (max-width: 935px) {
     width: 95%;
     transition: all 0.3s linear;
     padding: 5px;
@@ -47,16 +47,10 @@ export const Card = styled(_Card)`
   }
 `;
 export const SmallCard = styled(Card)`
-  width: 100px;
+  width: 130px;
   margin: 0 5px 5px 5px;
-  height: 100px;
+  height: 130px;
   cursor: pointer;
-  > h2 {
-    font-size: 20px;
-  }
-  > h3 {
-    font-size: 15px;
-  }
 `;
 
 // export const CardMedia = styled(_CardMedia)`

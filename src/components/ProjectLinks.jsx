@@ -37,7 +37,7 @@ const ProjectLinks = ({ demo, github, event }) => {
       )}
       {github && (
         <a href={github}>
-          <Github>Github</Github>
+          <Github>Github ></Github>
         </a>
       )}
       {event && (

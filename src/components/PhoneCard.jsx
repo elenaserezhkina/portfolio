@@ -24,7 +24,7 @@ const PhoneImage = styled.div`
   left: -77px;
   right: -9px;
   bottom: -18px;
-  top: -20px;
+  top: -24px;
 
   @media only screen and (max-width: 600px) {
     transition: all 0.3s linear;
