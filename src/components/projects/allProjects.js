@@ -3,7 +3,7 @@ const materialUi = {
   alt: "Material UI",
 };
 const nodeJs = {
-  img: "https://img.icons8.com/color/48/000000/nodejs.png",
+  img: "/nodeJs.svg",
   alt: "Node Js",
 };
 const scss = {
@@ -22,8 +22,19 @@ const mongoDb = {
   img: "https://img.icons8.com/color/48/000000/mongodb.png",
   alt: "mongoDB",
 };
-const styledComponents = "";
-const express = "";
+const mongoose = {
+  img: "/mongoose.png",
+  alt: "Mongoose",
+};
+const express = {
+  img: "/express.png",
+  alt: "Express",
+};
+const styledComponents = {
+  img: "/styledComponents.png",
+  alt: "Styled Components",
+};
+
 const redux = {
   img: "https://img.icons8.com/color/48/000000/redux.png",
   alt: "Redux",
@@ -37,7 +48,7 @@ export const projects = [
     smallImage: "/SmallLacesUp.jpg",
     imgTitle: "shoe with laces",
     specialization: "Fullstack",
-    stack: [nodeJs, react, mongoDb],
+    stack: [nodeJs, react, mongoDb, mongoose, express],
     technologies: ["Node.js", "Express", "Mongoose", "React"],
     description: "Project made for online shop selling designer laces ",
     companyLink: "https://www.lacesup.es/",
@@ -53,7 +64,7 @@ export const projects = [
     smallImage: "/SmallWorkademy.jpg",
     imgTitle: "Workademy logo",
     specialization: "Front-end",
-    stack: [react, materialUi, redux],
+    stack: [react, redux, styledComponents, materialUi],
     technologies: [
       "React",
       "Redux",

@@ -11,7 +11,7 @@ import {
   SmallCard as _SmallCard,
   PageContainer,
 } from "./style";
-import { projects } from "../components/projects/allProjets";
+import { projects } from "../components/projects/allProjects";
 
 const SmallCard = styled(_SmallCard)`
   display: flex;
@@ -43,7 +43,7 @@ const RightSection = styled.div`
 `;
 const SmallTitle = styled.h2`
   font-size: 20px;
-  color: "white";
+  color: white;
 `;
 
 const Projects = (props) => {

@@ -24,6 +24,11 @@ const LeftSection = styled.div`
 
 const Technologies = styled.div`
   margin-bottom: 10px;
+  img {
+    margin-right: 3px;
+    max-height: 48px;
+    max-width: 48px;
+  }
 `;
 const Description = styled(Technologies)``;
 const MyInput = styled(Technologies)``;
@@ -46,19 +51,11 @@ const ProjectCardBig = (props) => {
           <h2>{project.title}</h2>
           <h3>{project.subheader}</h3>
           <Description>
-            {project.description ? (
-              project.companyLink ? (
-                <>
-                  {project.description}{" "}
-                  <Highlight>
-                    <a href={project.companyLink}>{project.title}</a>
-                  </Highlight>
-                </>
-              ) : (
-                project.description
-              )
-            ) : (
-              ""
+            {project.description}{" "}
+            {project.companyLink && (
+              <Highlight>
+                <a href={project.companyLink}>{project.title}</a>
+              </Highlight>
             )}
           </Description>
 

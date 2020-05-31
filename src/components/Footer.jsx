@@ -74,7 +74,14 @@ const Footer = ({ theme }) => {
           Redux icon by Icons8
         </a>
       </SmallParagraph>
-      <SmallParagraph></SmallParagraph>
+      <SmallParagraph>
+        <a href="https://iconscout.com/icons/node-js" target="_blank">
+          Node Js Icon
+        </a>{" "}
+        by{" "}
+        <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a>{" "}
+        on <a href="https://iconscout.com">Iconscout</a>
+      </SmallParagraph>
       <SmallParagraph></SmallParagraph>
       <SmallParagraph></SmallParagraph>
       <SmallParagraph></SmallParagraph>

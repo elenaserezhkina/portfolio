@@ -65,8 +65,9 @@ const AboutMe = (props) => {
               under WCS.
             </Typography>
             <Typography>
-              💻 Technologies used: JavaScript, HTML5, CSS3, Bootstrap, ReactJS,
-              Material UI, Node.js, Express.js, MySQL, Git, Figma etc.
+              💻 Technologies used: JavaScript, HTML5, CSS3, Styled Components,
+              Bootstrap, ReactJS, Material UI, Node.js, Express.js, MySQL, Git,
+              Figma etc.
             </Typography>
             <Typography>
               I enjoy solving challenges, learning something new, and I am
