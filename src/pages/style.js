@@ -30,6 +30,7 @@ export const ProjectsPreview = styled.div`
   }
 `;
 export const ProjectsDescription = styled.div`
+  position: relative;
   width: 70%;
   padding: 5px;
   margin: 10px auto;

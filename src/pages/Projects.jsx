@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ProjectCardBig from "../components/description/ProjectCardBig";
 import Footer from "../components/Footer";
 import styled from "styled-components";
+import PhoneCard from "../components/PhoneCard";
 import {
   Container,
   ProjectsPreview,
@@ -17,6 +18,23 @@ const SmallCard = styled(_SmallCard)`
       "linear-gradient(rgba(4, 4, 4, 0.56), rgba(0, 0, 0, 0.35)), "}
     url(${(props) => props.value});
   background-size: cover;
+`;
+const RightSection = styled.div`
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding-right: 20px;
+
+  @media only screen and (max-width: 600px) {
+    transition: all 0.3s linear;
+    bottom: auto;
+    top: 20px;
+  }
+ 
+}
 `;
 
 const Projects = (props) => {
@@ -58,6 +76,12 @@ const Projects = (props) => {
             handleChange={handleChange}
             theme={props.theme}
           />
+          <RightSection>
+            <PhoneCard
+              image={selectedProject.image}
+              title={selectedProject.title}
+            ></PhoneCard>
+          </RightSection>
         </ProjectsDescription>
       </Container>
       <Footer theme={props.theme} />
