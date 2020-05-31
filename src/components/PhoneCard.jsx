@@ -21,9 +21,9 @@ const PhoneImage = styled.div`
   background-image: url("/phone.png");
   background-size: cover;
   position: absolute;
-  left: -63px;
-  right: -8px;
-  bottom: -23px;
+  left: -77px;
+  right: -9px;
+  bottom: -18px;
   top: -20px;
 
   @media only screen and (max-width: 600px) {
