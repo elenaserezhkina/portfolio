@@ -21,9 +21,10 @@ const BackgroundImage = styled.div`
   background-size: auto 100%;
   background-position: right;
   background-repeat: no-repeat;
-`;
-const TechContainer = styled.div`
-  color: ${({ theme }) => theme.highlight};
+  @media only screen and (max-width: 700px) {
+    transition: all 0.3s linear;
+    background-position: left;
+  }
 `;
 
 const MainHeader = styled.h1`

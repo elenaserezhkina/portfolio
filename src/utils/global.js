@@ -32,7 +32,7 @@ export const GlobalStyles = createGlobalStyle`
   font-weight: normal;
   font-size: 38px;
   // max-width: 500px;
-  @media only screen and (max-width: 550px) {
+  @media only screen and (max-width: 700px) {
     font-size: 30px;
     width: 80%;
     padding: 10px;

@@ -23,12 +23,14 @@ const LeftSection = styled.div`
 `;
 
 const Technologies = styled.div`
-  min-width: 320px;
   margin-bottom: 10px;
   img {
     margin-right: 3px;
     max-height: 48px;
     max-width: 48px;
+  }
+  div {
+    min-width: 320px;
   }
 `;
 const Description = styled(Technologies)``;
