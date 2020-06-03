@@ -30,6 +30,10 @@ const BackgroundImage = styled.div`
 const MainHeader = styled.h1`
   z-index: 2;
   position: relative;
+  @media only screen and (max-width: 415px) {
+    transition: all 0.3s linear;
+    min-height: 270px;
+  }
 `;
 
 const techStack = [

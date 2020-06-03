@@ -75,12 +75,8 @@ const Projects = (props) => {
               value={project.smallImage}
               selected={selectedProject === project}
             >
-              {/* {project !== selectedProject && ( */}
               <SmallTitle>{project.title}</SmallTitle>
-              {/* )} */}
-              {/* {project !== selectedProject && ( */}
               <SmallStack stack={project.stack} />
-              {/* )} */}
             </SmallCard>
           ))}
         </ProjectsPreview>

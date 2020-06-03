@@ -13,7 +13,8 @@ const FontAwesomeIcon = styled(_FontAwesomeIcon)`
   font-size: 65px;
   margin: 15px;
   @media only screen and (max-width: 500px) {
-    font-size: 45px;
+    font-size: 40px;
+    margin: 9px;
     transition: all 0.3s linear;
   }
 `;
