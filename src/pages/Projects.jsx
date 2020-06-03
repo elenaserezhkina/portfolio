@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import { Swipeable } from "react-swipeable";
+import styled from "styled-components";
 import ProjectCardBig from "../components/description/ProjectCardBig";
 import Footer from "../components/Footer";
-import styled from "styled-components";
 import PhoneCard from "../components/PhoneCard";
 import SmallStack from "../components/SmallStack";
 import {
@@ -84,11 +85,16 @@ const Projects = (props) => {
           ))}
         </ProjectsPreview>
         <ProjectsDescription>
-          <ProjectCardBig
-            project={selectedProject}
-            handleChange={handleChange}
-            theme={props.theme}
-          />
+          <Swipeable
+            onSwipedLeft={() => handleChange(-1)}
+            onSwipedRight={() => handleChange(+1)}
+          >
+            <ProjectCardBig
+              project={selectedProject}
+              handleChange={handleChange}
+              theme={props.theme}
+            />
+          </Swipeable>
           <RightSection>
             <PhoneCard
               image={selectedProject.image}
