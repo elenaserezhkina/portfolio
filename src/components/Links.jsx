@@ -40,7 +40,7 @@ const Links = (props) => {
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
-          href="https://drive.google.com/file/d/1tB8dpAu2zDzNCNlkTiIvrkzztK1fc1kS/view?usp=sharing"
+          href="https://drive.google.com/file/d/1FqIU6g-sYDT9wZTqqzsnaGANptQ6K20B/view?usp=sharing"
           target="_blank"
         >
           <FontAwesomeIcon icon={faAddressCard} />
