@@ -4,7 +4,6 @@ import { Button, Card as _Card, Highlight } from "../../pages/style";
 import ProjectLinks from "../ProjectLinks";
 
 const Container = styled.div`
-  // padding: 30px 0;
   position: relative;
 `;
 const Card = styled(_Card)`
@@ -15,7 +14,7 @@ const Card = styled(_Card)`
 const LeftSection = styled.div`
   width: 55%;
   flex-grow: 2;
-  padding: 0 5px;
+  padding: 0 4%;
   @media only screen and (max-width: 500px) {
     transition: all 0.3s linear;
     font-size: 14px;

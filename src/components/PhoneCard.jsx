@@ -14,7 +14,6 @@ const CardMedia = styled.div`
     width: 120px;
     border-radius: 20px;
   }
-  position: relative;
 `;
 
 const PhoneImage = styled.div`
