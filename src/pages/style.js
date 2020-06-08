@@ -7,12 +7,14 @@ export const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
 `;
 export const Container = styled.div`
   height: inherit;
   display: flex;
-  width: 100%;
+  width: 95%;
   max-width: 1400px;
   margin: 0 auto;
   justify-content: space-between;
@@ -31,11 +33,11 @@ export const ProjectsPreview = styled.div`
 `;
 export const ProjectsDescription = styled.div`
   position: relative;
-  width: 70%;
+  width: 65%;
   padding: 5px;
   margin: 10px auto;
   @media only screen and (max-width: 935px) {
-    width: 95%;
+    width: 100%;
     transition: all 0.3s linear;
     padding: 5px;
   }
@@ -60,7 +62,6 @@ export const Button = styled(_Button)`
   }
 `;
 export const BigImage = styled.div`
-  height: 100%;
   width: 40%;
   max-width: 350px;
   margin: 0 auto;

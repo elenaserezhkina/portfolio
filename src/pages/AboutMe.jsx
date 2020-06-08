@@ -79,7 +79,7 @@ const AboutMe = (props) => {
         </Card>
         <BigImage></BigImage>
       </Container>
-      <ScrollDown theme={props.theme} nextPage={() => props.onClick(2)} />
+      <ScrollDown theme={props.theme} />
     </PageContainer>
   );
 };

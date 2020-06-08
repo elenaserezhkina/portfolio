@@ -8,6 +8,7 @@ const Container = styled.div`
   width: 100%;
   height: 70px;
   padding: 5px;
+  margin-top: 20px;
   background-color: ${({ theme }) => theme.footer};
 `;
 
@@ -82,9 +83,6 @@ const Footer = ({ theme }) => {
         <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a>{" "}
         on <a href="https://iconscout.com">Iconscout</a>
       </SmallParagraph>
-      <SmallParagraph></SmallParagraph>
-      <SmallParagraph></SmallParagraph>
-      <SmallParagraph></SmallParagraph>
     </Container>
   );
 };
