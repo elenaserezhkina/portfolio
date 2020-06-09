@@ -25,7 +25,7 @@ const SmallCard = styled(_SmallCard)`
     transition: all 0.2s linear;
     ${(props) =>
       props.selected &&
-      "transform: scale(1.2); box-shadow: 2px 2px 2px 3px #2a2a2a;"}
+      "transform: scale(1.2); box-shadow: 1px 1px 1px 1px #2a2a2a;"}
   }
 `;
 const RightSection = styled.div`
