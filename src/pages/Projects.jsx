@@ -65,7 +65,7 @@ const Projects = (props) => {
 
   return (
     <PageContainer>
-      <h1>My projects</h1>
+      <h1 id="projects">My projects</h1>
       <Container>
         <ProjectsPreview>
           {projects.map((project, key) => (

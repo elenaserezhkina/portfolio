@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
@@ -65,7 +65,7 @@ const LandingPage = (props) => {
           </MainHeader>
         </BackgroundBlur>
         <Links theme={props.theme} />
-        <ScrollDown theme={props.theme} nextPage={() => props.onClick(1)} />
+        <ScrollDown theme={props.theme} id="about" />
       </PageContainer>
     </BackgroundImage>
   );

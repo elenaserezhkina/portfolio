@@ -46,7 +46,7 @@ const Typography = styled(_Typography)`
 const AboutMe = (props) => {
   return (
     <PageContainer>
-      <h1>About me</h1>
+      <h1 id="about">About me</h1>
       <Container>
         <Card>
           <CardContent>
@@ -79,7 +79,7 @@ const AboutMe = (props) => {
         </Card>
         <BigImage></BigImage>
       </Container>
-      <ScrollDown theme={props.theme} nextPage={() => props.onClick(2)} />
+      <ScrollDown theme={props.theme} id="projects" />
     </PageContainer>
   );
 };
