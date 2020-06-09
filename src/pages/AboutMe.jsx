@@ -3,21 +3,22 @@ import React from "react";
 import CardContent from "@material-ui/core/CardContent";
 import _Typography from "@material-ui/core/Typography";
 import styled from "styled-components";
-import {
-  Container,
-  BigImage,
-  Card as _Card,
-  Highlight,
-  PageContainer,
-} from "./style";
+import { BigImage, Card as _Card, Highlight, PageContainer } from "./style";
 import ScrollDown from "../components/ScrollDown";
+
+const Container = styled.div`
+  display: flex;
+  width: 95%;
+  max-width: 1400px;
+  margin: 0 auto;
+`;
 
 const Card = styled(_Card)`
   width: 60%;
   margin-left: 5px;
   max-width: 700px;
   height: 100%;
-  min-height: 350px;
+  min-height: 400px;
   @media only screen and (max-width: 700px) {
     width: 95%;
     margin: 0 auto;
