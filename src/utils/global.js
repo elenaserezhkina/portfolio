@@ -5,6 +5,7 @@ export const GlobalStyles = createGlobalStyle`
   *::after,
   *::before {
     box-sizing: border-box;
+    font-family: "Hanken Grotesk Regular";
   }
   *:focus {
     outline: none;
