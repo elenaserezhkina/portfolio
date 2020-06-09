@@ -3,7 +3,7 @@ import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 import { FontAwesomeIcon as _FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const ScrollContainer = styled.div`
+const ScrollContainer = styled.a`
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
@@ -17,9 +17,9 @@ const FontAwesomeIcon = styled(_FontAwesomeIcon)`
   }
 `;
 
-const ScrollDown = ({ theme, nextPage }) => {
+const ScrollDown = ({ theme, id }) => {
   return (
-    <ScrollContainer>
+    <ScrollContainer href={`#${id}`}>
       <FontAwesomeIcon
         icon={faAngleDoubleDown}
         color={theme === "light" ? "#ffc34d" : "#5769AD"}

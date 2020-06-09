@@ -20,7 +20,7 @@ export const Container = styled.div`
   justify-content: space-between;
 `;
 export const ProjectsPreview = styled.div`
-  width: 30%;
+  width: 37%;
   padding: 10px 0;
   display: flex;
   max-height: 500px;

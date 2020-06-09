@@ -65,7 +65,7 @@ const LandingPage = (props) => {
           </MainHeader>
         </BackgroundBlur>
         <Links theme={props.theme} />
-        <ScrollDown theme={props.theme} />
+        <ScrollDown theme={props.theme} id="about" />
       </PageContainer>
     </BackgroundImage>
   );
