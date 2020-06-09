@@ -23,8 +23,10 @@ const SmallCard = styled(_SmallCard)`
   background-size: cover;
   &.MuiPaper-root {
     transition: all 0.2s linear;
+    ${(props) =>
+      props.selected &&
+      "transform: scale(1.2); box-shadow: 2px 2px 2px 3px #2a2a2a;"}
   }
-  ${(props) => props.selected && "transform: scale(0.7);"}
 `;
 const RightSection = styled.div`
   display: flex;

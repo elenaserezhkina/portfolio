@@ -12,7 +12,7 @@ export const PageContainer = styled.div`
   height: fit-content;
 `;
 export const Container = styled.div`
-  height: inherit;
+  min-height: 500px;
   display: flex;
   width: 95%;
   max-width: 1400px;
