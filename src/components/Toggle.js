@@ -16,11 +16,11 @@ const ToggleContainer = styled.button`
   overflow: hidden;
   padding: 0.5rem;
   position: relative;
-  width: 7rem;
-  height: 3, 5rem;
+  width: 5rem;
+  height: 2 rem;
   @media only screen and (max-width: 550px) {
-    width: 6rem;
-    height: 3rem;
+    width: 3rem;
+    height: 2rem;
     transition: all 0.3s linear;
   }
 
