@@ -27,10 +27,12 @@ export const GlobalStyles = createGlobalStyle`
     }
   }
   h1 {
-  margin: 0 auto;
+  margin: 10px auto;
+  padding: 10px 15px;
   text-align: center;
   font-weight: normal;
   font-size: 38px;
+  font-family: "Hanken Grotesk SemiBold";
   // max-width: 500px;
   @media only screen and (max-width: 700px) {
     font-size: 30px;

@@ -5,3 +5,10 @@
   src: local("Hanken Grotesk Regular"),
     url("HankenGrotesk-Regular.woff") format("woff");
 }
+@font-face {
+  font-family: "Hanken Grotesk SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Hanken Grotesk SemiBold"),
+    url("HankenGrotesk-SemiBold.woff") format("woff");
+}
