@@ -30,6 +30,8 @@ const Technologies = styled.div`
   }
   div {
     min-width: 320px;
+    display: flex;
+    align-items: center;
   }
 `;
 const Description = styled(Technologies)``;

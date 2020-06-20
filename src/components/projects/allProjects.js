@@ -40,7 +40,37 @@ const redux = {
   alt: "Redux",
 };
 
+const reactNative = {
+  img: "https://img.icons8.com/color/48/000000/react-native.png",
+  alt: "React Native",
+};
+const mocha = {
+  img: "mocha.svg",
+  alt: "Mocha",
+};
+const expo = {
+  img: "expo.png",
+  alt: "Expo",
+};
+
 export const projects = [
+  {
+    title: "Plant Watering App",
+    subheader: "Personal project",
+    image: "/wateringApp.jpg",
+    smallImage: "/SmallWateringApp.jpg",
+    imgTitle: "plant picture and search field ",
+    specialization: "Fullstack",
+    stack: [reactNative, mocha, expo, nodeJs, mongoDb, express],
+    technologies: ["Node.js", "Express", "Mongoose", "React"],
+    description:
+      "Personal project made with React Native. This App will suggest you how often your plants should be watered. Also you'll find an interesting fact about each plant. Just start by typing the plant name e.g. Avocado tree.",
+    myInput:
+      "For this App I created the mockup in Figma, implemented the REST API with tests and created the App.",
+    demo: "https://expo.io/@anel92r/plants-watering-app",
+    github:
+      "https://github.com/elenaserezhkina/plant-watering-project/tree/master",
+  },
   {
     title: "Laces Up",
     subheader: "Hackathon project",
