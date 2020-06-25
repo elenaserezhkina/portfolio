@@ -15,8 +15,8 @@ const Container = styled.div`
 const SmallStack = ({ stack }) => {
   return (
     <Container>
-      {stack.slice(0, 3).map((el) => (
-        <StackImage img={el.img}></StackImage>
+      {stack.slice(0, 3).map((el, key) => (
+        <StackImage img={el.img} key={el.img}></StackImage>
       ))}
     </Container>
   );

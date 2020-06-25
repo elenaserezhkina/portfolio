@@ -53,7 +53,11 @@ const AboutMe = (props) => {
           <CardContent>
             <Typography>
               In the middle of 2019, I’ve challenged myself to become a{" "}
-              <Highlight>Web Developer</Highlight> 👩‍💻.
+              <Highlight>Web Developer</Highlight>{" "}
+              <span role="img" aria-label="woman in front of computer">
+                👩‍💻
+              </span>
+              .
             </Typography>
             <Typography>
               After a few months, of <Highlight>self-studying</Highlight>, I won
@@ -66,7 +70,10 @@ const AboutMe = (props) => {
               under WCS.
             </Typography>
             <Typography>
-              💻 Technologies used: JavaScript, HTML5, CSS3, Styled Components,
+              <span role="img" aria-label="computer emojis">
+                💻
+              </span>{" "}
+              Technologies used: JavaScript, HTML5, CSS3, Styled Components,
               Bootstrap, ReactJS, Material UI, Node.js, Express.js, MySQL, Git,
               Figma etc.
             </Typography>

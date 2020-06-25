@@ -34,22 +34,39 @@ const Links = (props) => {
   return (
     <BackgroundBlur>
       <LinksContainer>
-        <a href="https://github.com/elenaserezhkina" target="_blank">
+        <a
+          href="https://github.com/elenaserezhkina"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="https://www.linkedin.com/in/olena-shutovska/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/olena-shutovska/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
           href="https://drive.google.com/file/d/1FqIU6g-sYDT9wZTqqzsnaGANptQ6K20B/view?usp=sharing"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faAddressCard} />
         </a>
-        <a href="mailto:o.shutovska@gmail.com" target="_blank">
+        <a
+          href="mailto:o.shutovska@gmail.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
-        <a href="https://www.instagram.com/elenaserezhkina/" target="_blank">
+        <a
+          href="https://www.instagram.com/elenaserezhkina/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <FontAwesomeIcon icon={faInstagram} />
         </a>
       </LinksContainer>

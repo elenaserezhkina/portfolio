@@ -86,7 +86,11 @@ const Footer = ({ theme }) => {
             </a>
           </SmallParagraph>
           <SmallParagraph>
-            <a href="https://iconscout.com/icons/node-js" target="_blank">
+            <a
+              href="https://iconscout.com/icons/node-js"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Node Js Icon
             </a>{" "}
             by{" "}

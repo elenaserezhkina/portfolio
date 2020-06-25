@@ -72,8 +72,8 @@ const ProjectCardBig = (props) => {
           <Technologies>
             Stack
             <div>
-              {project.stack.map((el) => (
-                <img src={el.img} alt={el.alt} title={el.alt} />
+              {project.stack.map((el, key) => (
+                <img src={el.img} alt={el.alt} title={el.alt} key={el.alt} />
               ))}
             </div>
           </Technologies>
